@@ -11,3 +11,11 @@ function feature1() {
     }
     return 1;
 }
+
+function feature2(a: number) {
+    if ( a > 1 && a < 5) {
+        return 2;
+    } else {
+        return 0;
+    }
+}
