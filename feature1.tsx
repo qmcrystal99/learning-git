@@ -1,6 +1,6 @@
 function feature1() {
     const number = Date.now()
-    switch (number%4) {
+    switch (number) {
         case 1:
             console.log(`number = 1`);
             break;
