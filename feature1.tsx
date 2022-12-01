@@ -1,8 +1,11 @@
 function feature1() {
-    const number = 1
+    const number = Date.now();
     switch (number) {
         case 1:
             console.log(`number = 1`);
+            break;
+        case 2:
+            console.log(`number = 2`);
             break;
         default:
             console.log(`number is unknow`);
@@ -14,6 +17,14 @@ function feature1() {
 
 function feature2(a: number) {
     if ( a > 1 && a < 5) {
+        return 2;
+    } else {
+        return 0;
+    }
+}
+
+function feature3(b: number) {
+    if ( b > 1 && b < 5) {
         return 2;
     } else {
         return 0;
