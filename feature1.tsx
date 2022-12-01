@@ -32,3 +32,11 @@ function feature3(b: number) {
         return 0;
     }
 }
+
+function feature4(c: number) {
+    if ( c > 1 && c < 5) {
+        return 2;
+    } else {
+        return 0;
+    }
+}
