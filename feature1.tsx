@@ -1,12 +1,15 @@
 function feature1() {
-    const number = 1
-    switch (number) {
+    const number = Date.now()
+    switch (number%4) {
         case 1:
             console.log(`number = 1`);
             break;
+        case 2: 
+            console.log(`number = 2`);
+        case 3: 
+            console.log(`number = 3`);
         default:
             console.log(`number is unknow`);
-            
             break;
     }
     return 1;
